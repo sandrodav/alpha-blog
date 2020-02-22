@@ -1,3 +1,3 @@
 # ALPHA_BLOG
 
-* heroku link:
+* heroku link : https://sandros-alpha-blog.herokuapp.com/
