@@ -4,7 +4,7 @@ class ArticlesController < ApplicationController
   before_action :require_same_user , only: [:edit , :update , :destroy]
 
   def index
-    @articles = Article.order(:name).page params[:page]
+    @articles = Article.all
   end
   def new
     @article = Article.new

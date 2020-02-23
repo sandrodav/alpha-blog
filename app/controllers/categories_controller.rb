@@ -2,7 +2,7 @@ class CategoriesController < ApplicationController
   before_action :require_admin, except:[:index, :show]
 
   def index
-    @categories = Category.order(:name).page params[:page]
+    @categories = Category.all
   end
 
   def new

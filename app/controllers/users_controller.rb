@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   before_action :require_same_user , only: [:edit , :update, :destroy ]
   before_action :require_admin ,only: [:destory]
   def index
-    @users = User.order(:last_name).page(params[:page])
+    @users = User.all
 
   end
 
