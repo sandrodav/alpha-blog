@@ -9,7 +9,7 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 gem 'bcrypt', '~>3.1.7'
 gem 'kaminari'
 
-gem 'bootstrap-sass' , '3.3.7'
+gem 'bootstrap-sass' , '3.4.1'
 gem 'jquery-rails'
 # Use sqlite3 as the database for Active Record
 
